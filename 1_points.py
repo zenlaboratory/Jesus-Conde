@@ -1,4 +1,5 @@
 # Define a class to represent a character in a game
+
 import random
 
 
@@ -10,7 +11,8 @@ class Character:
     def __init__(self, pos_x=0, pos_y=0):
         """
         Initialize the character's position to the origin (0, 0).
-        This code snippet is a Python class constructor that initializes the character's position to the origin (0, 0) with default values for the x and y coordinates. However, it seems like the default values provided in the function signature are not being utilized, as the pos_x and pos_y attributes are being set to 0 directly.
+        This code snippet is a Python class constructor that initializes the character's position to the origin (0, 0) with default values for the x and y coordinates. 
+        However, it seems like the default values provided in the function signature are not being utilized, as the pos_x and pos_y attributes are being set to 0 directly.
         """
         self.pos_x = pos_x
         self.pos_y = pos_y
